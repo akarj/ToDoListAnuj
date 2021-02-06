@@ -1,0 +1,89 @@
+div.SearchBar {
+  place-items: center;
+  place-content: center;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  padding-top: 25px;
+}
+
+form {
+  min-height: 20vh;
+  place-content: center;
+}
+
+input[type="text"] {
+  position: absolute;
+
+  color: rgba(55, 151, 55, 0.801);
+  font-size: 25px;
+
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background: #dbe9f1;
+  border: 4px solid #000000;
+  border-radius: 8px;
+  left: 0%;
+  height: 35%;
+}
+
+button.SearchBarButton {
+  position: absolute;
+  top: 55%;
+  left: 21.5%;
+  height: 25%;
+  width: 55%;
+
+  background: #3975e8;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 7px;
+
+  font-family: Rasa;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+
+  text-align: center;
+  place-content: center;
+  place-items: center;
+
+  color: #ffffff;
+}
+
+::placeholder,
+:-ms-input-placeholder,
+::-ms-input-placeholder {
+  color: rgb(55, 151, 55);
+  font-size: 22px;
+}
+
+@media screen and (max-width: 426px) {
+  ::placeholder,
+  :-ms-input-placeholder,
+  ::-ms-input-placeholder {
+    color: rgb(55, 151, 55);
+    font-size: 15px;
+  }
+
+  input[type="text"] {
+    font-size: 20px;
+
+    position: relative;
+    left: -12px;
+    height: 50px;
+    width: 360px;
+    outline: invert;
+  }
+
+  button.SearchBarButton {
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+    height: 35px;
+    width: 260px;
+    outline: invert;
+  }
+}

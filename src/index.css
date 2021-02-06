@@ -1,0 +1,21 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    89.55deg,
+    rgba(130, 160, 218, 0.52) 14.54%,
+    rgba(130, 160, 218, 0.509091) 26.8%,
+    rgba(130, 160, 218, 0.52) 34.73%,
+    rgba(130, 160, 218, 0.408311) 48.01%,
+    rgba(129, 152, 197, 0.397837) 63.33%,
+    rgba(130, 160, 218, 0.52) 71.27%,
+    rgba(130, 160, 218, 0.52) 80.7%
+  );
+  background-blend-mode: darken;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
